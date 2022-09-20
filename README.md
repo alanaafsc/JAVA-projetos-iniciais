@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/468px-Java_programming_language_logo.svg.png?20190828223431" width="50" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/468px-Java_programming_language_logo.svg.png?20190828223431" width="100" height="200">
 
 # Aprendendo a linguagem Java
 O seguinte repositório possui arquivos em Java, com o intuito de aprender a linguagem, suas principais IDEs e projetos básicos que podem ser feitos a partir dela. No bootcamp da DIO, foram feitos dois programas: o primeiro foi uma calculadora simples em java, o segundo foi uma classe simples para testar alguns comandos básicos em java. 
