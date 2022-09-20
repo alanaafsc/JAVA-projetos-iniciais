@@ -1,9 +1,11 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		String product1 = "Computer";
+		//Testando atribuicoes e sysout
+		/* String product1 = "Computer";
 		String product2 = "Office Desk";
 		
 		int age = 30;
@@ -23,7 +25,31 @@ public class Main {
 		System.out.printf("Measure with eight decimal places: %.8f%n", measure);
 		System.out.printf("Rouded (3 decimal places): %.3f%n", measure);
 		Locale.setDefault(Locale.US);
-		System.out.printf("US decimal point: %.3f%n", measure);
+		System.out.printf("US decimal point: %.3f%n", measure); */
+		
+		//Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		//string
+		//String x;
+		//x = sc.next();
+		
+		//int
+		//int y;
+		//y = sc.nextInt();
+		
+		
+		//double
+		//double x;
+		//x = sc.nextDouble();
+		
+		//char 
+		char x;
+		x = sc.next().charAt(0);
+		
+		
+		System.out.println("Voce digitou: " + x);
+		sc.close();
 	
 	}
 
