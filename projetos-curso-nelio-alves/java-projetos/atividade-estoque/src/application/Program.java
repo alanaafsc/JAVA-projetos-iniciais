@@ -13,16 +13,18 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		//product info
-		Product product = new Product();
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
-		System.out.print("Quantity in Stock: ");
-		product.quantity = sc.nextInt();
+		Double price = sc.nextDouble();
+		//System.out.print("Quantity in Stock: ");
+		//int quantity = sc.nextInt();
 		
-		
+		Product product = new Product(name, price);
+		product.setName("Computer");
+		product.setPrice(1200.00);
+
 		//print info of the products
 		System.out.println(); // para pular linha
 		System.out.println("Product data: " + product);
