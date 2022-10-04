@@ -9,7 +9,7 @@ import java.time.temporal.ChronoUnit;
 public class DataHora {
 
 	public static void main(String[] args) {
-		/*
+		
 		//INSTANCIACAO
 		//https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
 		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -43,9 +43,9 @@ public class DataHora {
 		System.out.println(d09);
 		System.out.println(d10);
 		System.out.println(d11);
-		*/
+		
 		//FORMATACAO
-		/*
+		
 		LocalDate d012 = LocalDate.parse("2022-07-20");
 		LocalDateTime d13 = LocalDateTime.parse("2022-07-20T01:30:26");
 		Instant d14 = Instant.parse("2022-07-20T01:30:26Z");
@@ -69,14 +69,14 @@ public class DataHora {
 		System.out.println(fmt7.format(d14));
 		//ou
 		System.out.println(d14.toString());
-		*/
+		
 		
 		//CONVERTER DATA-HORA GLOBAL PARA LOCAL 
 		
 		LocalDate d15 = LocalDate.parse("2022-07-20");
 		LocalDateTime d16 = LocalDateTime.parse("2022-07-20T01:30:26");
 		Instant d17 = Instant.parse("2022-07-20T01:30:26Z");
-		/*
+		
 		LocalDate r1 = LocalDate.ofInstant(d17, ZoneId.systemDefault());
 		LocalDate r2 = LocalDate.ofInstant(d17, ZoneId.of("Portugal"));
 
@@ -92,7 +92,7 @@ public class DataHora {
 		System.out.println("d15 dia: " + d15.getDayOfMonth());
 		System.out.println("d15 mes: " + d15.getMonthValue());
 		
-		System.out.println("d16 hora: " + d16.getHour()); */
+		System.out.println("d16 hora: " + d16.getHour()); 
 		
 		//Cálculos com data-hora
 		LocalDate pastWeek = d15.minusDays(7); //uma semana antes de d15
