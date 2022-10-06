@@ -32,7 +32,7 @@ public class ProgramAccountException {
 			System.out.println("New balance: " + account.getBalance());
 
 		} catch (DomainException e) {
-			System.out.println("Withdraw error: " + e);
+			System.out.println(e.getMessage());
 		} catch (RuntimeException e) {
 			System.out.println("Unexpected error");
 		}
