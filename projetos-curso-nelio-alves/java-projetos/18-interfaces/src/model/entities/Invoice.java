@@ -1,7 +1,6 @@
 package model.entities;
 
 public class Invoice {
-	// without interface
 
 	private Double basicPayment;
 	private Double tax;

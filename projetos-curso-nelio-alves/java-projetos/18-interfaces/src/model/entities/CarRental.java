@@ -3,7 +3,6 @@ package model.entities;
 import java.time.LocalDateTime;
 
 public class CarRental {
-	// without interface
 	private LocalDateTime start;
 	private LocalDateTime finish;
 

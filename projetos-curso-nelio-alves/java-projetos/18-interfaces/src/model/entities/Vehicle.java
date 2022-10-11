@@ -1,7 +1,6 @@
 package model.entities;
 
 public class Vehicle {
-	// Without interfaces
 
 	private String model;
 
