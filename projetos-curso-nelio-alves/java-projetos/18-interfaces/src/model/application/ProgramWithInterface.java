@@ -19,7 +19,7 @@ import model.entities.Vehicle;
 import model.services.BrazilTaxService;
 import model.services.RentalService;
 
-public class ProgramWithoutInterface {
+public class ProgramWithInterface {
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
