@@ -3,7 +3,10 @@
 # Aprendendo a linguagem Java
 O seguinte repositório possui arquivos em Java, com o intuito de aprender a linguagem, suas principais IDEs e projetos e exercícios que podem ser feitos a partir dela. No bootcamp da DIO, foram feitos dois programas: o primeiro foi uma calculadora simples em java, o segundo foi uma classe simples para testar alguns comandos básicos em java. 
 
-Em andamento, se encontram as atividades e projetos feitos a partir do curso de Nélio Alves, na plataforma Udemy. O curso engloba:
+Em andamento, se encontram as atividades e projetos feitos a partir do curso de Nélio Alves, na plataforma Udemy. A partir desse curso, foi possível implementar um projeto de um sistema de Xadrez em Java, que se encontra no seguinte repositório:
+<a href ="https://github.com/alanaafsc/chess-system-java"> Chess-System-Java</a>
+
+O curso engloba os tópicos a seguir:
 - **Lógica de programação e algoritmos**
 - **Sintaxe da linguagem Java**
 - **Classes, atributos e métodos**
@@ -27,5 +30,4 @@ Há também ensinamentos para as principais **ferramentas** e **frameworks** par
 - **Spring Data JPA** framework para acesso a dados ORM
 - **Spring Data MongoDB** framework para acesso a dados NoSQL ao banco MongoDB
 
-A partir desse curso, foi possível implementar um projeto de um sistema de Xadrez em Java, que se encontra no seguinte repositório:
-<a href ="https://github.com/alanaafsc/chess-system-java"> exemplo</a>
+
