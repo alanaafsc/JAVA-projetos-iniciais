@@ -1,4 +1,4 @@
-package exerciciofixacaoMinhasolucao.services;
+package exerciciofixacao.services;
 
 public interface OnlinePaymentService {
 	double paymentFee(double amount);

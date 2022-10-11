@@ -1,4 +1,4 @@
-package exerciciofixacaoMinhasolucao.entities;
+package exerciciofixacao.entities;
 
 import java.time.LocalDate;
 
@@ -6,6 +6,9 @@ public class Installment {
 
 	private LocalDate dueDate;
 	private Double amount;
+
+	public Installment() {
+	}
 
 	public Installment(LocalDate dueDate, Double amount) {
 		this.dueDate = dueDate;
