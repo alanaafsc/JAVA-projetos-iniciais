@@ -2,7 +2,7 @@ package exemplos.entities;
 
 import exemplos.enums.Color;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
 
 	private Double width;
 	private Double height;
