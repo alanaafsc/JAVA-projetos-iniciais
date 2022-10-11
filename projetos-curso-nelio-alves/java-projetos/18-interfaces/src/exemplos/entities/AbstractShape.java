@@ -2,7 +2,7 @@ package exemplos.entities;
 
 import exemplos.enums.Color;
 
-public abstract class AbstractShape implements Shape{
+public abstract class AbstractShape implements Shape {
 
 	private Color color;
 
