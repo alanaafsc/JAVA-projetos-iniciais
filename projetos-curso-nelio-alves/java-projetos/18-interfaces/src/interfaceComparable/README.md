@@ -1,3 +1,4 @@
+## Problema
 Faça um programa para ler um arquivo contendo funcionários (nome e salário) no formato .csv, armazenando-os em uma lista. Depois, ordenar a lista por nome e mostrar o resultado na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
 
 > Maria Brown,4300.00
@@ -17,3 +18,6 @@ Faça um programa para ler um arquivo contendo funcionários (nome e salário) n
 > Marta Blue,6100.00
 >
 > Alex Brown,5000.00
+
+### Conceitos aprendidos:
+- Interface Comparable
