@@ -1,8 +1,8 @@
-package application;
+package model.application;
 
 import java.util.Scanner;
 
-import services.PrintService;
+import model.services.PrintService;
 
 
 public class Program {
