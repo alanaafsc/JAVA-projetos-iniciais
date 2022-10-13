@@ -58,4 +58,5 @@ O curso é dividido em seções, sendo assim, os projetos Java do repositório t
 - Seção 24: Projeto: API Restful com Spring Boot e banco MongoDB (web services + NoSQL)
 - Seção 25: Interface gráfica com JavaFX
 
+Na pasta src há exercícios simples a respeito de alguns temas abordados nas seções e a pasta exerc-fixacao tem os exercícios de fixação proposto pelo professor a respeito de alguns conceitos.
 
