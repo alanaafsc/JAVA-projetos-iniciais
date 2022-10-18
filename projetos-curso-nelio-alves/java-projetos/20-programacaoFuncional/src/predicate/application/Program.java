@@ -2,6 +2,7 @@ package predicate.application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 import predicate.entities.Product;
 
@@ -17,8 +18,12 @@ public class Program {
 		// double min = 100.0;
 
 		// list.removeIf(p -> p.getPrice() >= min);
+		double factor = 1.1;
+		Consumer<Product> cons = p -> {
+			p.setPrice(p.getPrice() * factor);
+		};
 
-		list.forEach(Product::nonStaticPriceUpdate);
+		list.forEach(cons);
 		list.forEach(System.out::println);
 		/*
 		 * for (Product p : list) { System.out.println(p); }
