@@ -18,7 +18,7 @@ public class Program {
 
 		// list.removeIf(p -> p.getPrice() >= min);
 
-		list.forEach(Product::staticPriceUpdate);
+		list.forEach(Product::nonStaticPriceUpdate);
 		list.forEach(System.out::println);
 		/*
 		 * for (Product p : list) { System.out.println(p); }
