@@ -1,8 +1,8 @@
-package predicate.util;
+package predicateandconsumer.util;
 
 import java.util.function.Consumer;
 
-import predicate.entities.Product;
+import predicateandconsumer.entities.Product;
 
 public class PriceUpdate implements Consumer<Product> {
 

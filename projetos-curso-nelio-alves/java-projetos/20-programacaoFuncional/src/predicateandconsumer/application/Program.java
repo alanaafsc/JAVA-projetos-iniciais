@@ -1,23 +1,22 @@
-package predicate.application;
+package predicateandconsumer.application;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import predicate.entities.Product;
+import predicateandconsumer.entities.Product;
 
 public class Program {
 
 	public static void main(String[] args) {
+		
 		List<Product> list = new ArrayList<>();
 		list.add(new Product("Tv", 900.00));
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 
-		// double min = 100.0;
-
-		// list.removeIf(p -> p.getPrice() >= min);
 		double factor = 1.1;
+		//double factor = 1.1;
 		//Consumer<Product> cons = p -> p.setPrice(p.getPrice() * factor);
 		
 

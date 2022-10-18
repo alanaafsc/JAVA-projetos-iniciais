@@ -1,4 +1,4 @@
-package predicate.entities;
+package predicateandconsumer.entities;
 
 public class Product {
 	private String name;
