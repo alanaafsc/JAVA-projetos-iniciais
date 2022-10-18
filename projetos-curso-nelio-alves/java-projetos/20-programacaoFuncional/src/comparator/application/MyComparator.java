@@ -1,8 +1,8 @@
-package application;
+package comparator.application;
 
 import java.util.Comparator;
 
-import entities.Product;
+import comparator.entities.Product;
 
 public class MyComparator implements Comparator<Product> {
 

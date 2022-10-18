@@ -1,4 +1,4 @@
-package entities;
+package predicate.entities;
 
 public class Product {
 	private String name;
@@ -24,6 +24,10 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
+	
+	//public static boolean staticProductPredicate(Product p) {
+	//	return p.getPrice() >= 100.0;
+	//}
 
 	@Override
 	public String toString() {

@@ -1,9 +1,9 @@
-package application;
+package comparator.application;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import entities.Product;
+import comparator.entities.Product;
 
 public class Program {
 
