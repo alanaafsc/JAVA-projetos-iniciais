@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import predicate.entities.Product;
-import predicate.util.PriceUpdate;
 
 public class Program {
 
@@ -19,7 +18,7 @@ public class Program {
 
 		// list.removeIf(p -> p.getPrice() >= min);
 
-		list.forEach(new PriceUpdate());
+		list.forEach(Product::staticPriceUpdate);
 		list.forEach(System.out::println);
 		/*
 		 * for (Product p : list) { System.out.println(p); }
