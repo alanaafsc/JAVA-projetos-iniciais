@@ -47,12 +47,12 @@ O curso é dividido em seções, sendo assim, os projetos Java do repositório t
 - Seção 13: Enumerações, composição
 - Seção 14: Herança e polimorfismo
 - Seção 15: Tratamento de exceções
-- Seção 16: Projeto: Sistema jogo de xadrez <a href ="https://github.com/alanaafsc/chess-system-java"> chess-system-java</a>
+- Seção 16: Projeto: Sistema jogo de xadrez; Repositório: <a href ="https://github.com/alanaafsc/chess-system-java"> chess-system-java</a>
 - Seção 17: Trabalhando com arquivos
 - Seção 18: Interfaces
 - Seção 19: Generics, Set, Map
 - Seção 20: Programação funcional e expressões lambda
-- Seção 21: Acesso a banco de dados com JDBC
+- Seção 21: Acesso a banco de dados com JDBC; Repositório: <a href ="https://github.com/alanaafsc/course-jdbc"> course-jdbc</a>
 - Seção 22: Java EE - Mapeamento objeto relacional com JPA / Hibernate
 - Seção 23: Projeto: Web services com Spring Boot e JPA / Hibernate
 - Seção 24: Projeto: API Restful com Spring Boot e banco MongoDB (web services + NoSQL)
